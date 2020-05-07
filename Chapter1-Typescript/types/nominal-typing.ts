@@ -27,7 +27,7 @@ class Fender extends Guitar {
     }
 }
 
-export const nominalTyping = () => {
+export const nominalTyping = (): void => {
     // Valid through subtypes
     const thingThatMakesNoise: Instrument = new Fender();
 
